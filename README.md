@@ -1,81 +1,151 @@
-# Machine Learning Labs / Лабораторные работы по Машинному Обучению
+# Machine Learning Labs
 
-Этот репозиторий содержит **11 лабораторных работ по машинному обучению**, выполненных в рамках учебного курса.  
-Все лабораторные содержат решения в Jupyter Notebook, исходные данные и описание заданий на русском и английском.
+This repository contains **11 machine learning laboratory projects** completed as part of an academic machine learning course.
 
-This repository contains **11 machine learning labs** completed as part of a course.  
-All labs include Jupyter Notebook solutions, source data, and task descriptions in Russian and English.
+Each lab includes a **Jupyter Notebook with the solution**, source data when applicable, and a task description in **English and Russian**.
 
 ---
 
-## Структура проекта / Project Structure
-```
+## Project Structure
+
+```text
 ML/
 │
-├─ notebooks/ # Jupyter ноутбуки с решениями / Jupyter notebooks with solutions
-|
-│ ├─ Lab_1.ipynb
-│ ├─ Lab_2.ipynb
-│ ├─ Lab_3.ipynb
-│ ├─ Lab_4.ipynb
-│ ├─ Lab_5.ipynb
-│ ├─ Lab_6.ipynb
-│ ├─ Lab_7.ipynb
-│ ├─ Lab_8.ipynb
-│ ├─ Lab_9.ipynb
-│ ├─ Lab_10.ipynb
-│ └─ Lab_11.ipynb
+├─ notebooks/                         # Jupyter notebooks with solutions
+│  ├─ Lab_1.ipynb
+│  ├─ Lab_2.ipynb
+│  ├─ Lab_3.ipynb
+│  ├─ Lab_4.ipynb
+│  ├─ Lab_5.ipynb
+│  ├─ Lab_6.ipynb
+│  ├─ Lab_7.ipynb
+│  ├─ Lab_8.ipynb
+│  ├─ Lab_9.ipynb
+│  ├─ Lab_10.ipynb
+│  └─ Lab_11.ipynb
 │
-├─ data/ # Данные для лабораторных / Data for labs
-│ ├─ data_lab_1.csv
-│ ├─ data_lab_2.csv
-│ ├─ data_lab_3.csv
-│ ├─ data_lab_4.csv
-│ ├─ data_lab_5.csv
-│ └─ data_lab_6.csv
+├─ data/                              # Datasets used in the labs
+│  ├─ data_lab_1.csv
+│  ├─ data_lab_2.csv
+│  ├─ data_lab_3.csv
+│  ├─ data_lab_4.csv
+│  ├─ data_lab_5.csv
+│  └─ data_lab_6.csv
 │
-├─ task/ # Задания на русском и английском / Tasks in Russian and English
-│ ├─ lab01_task.md
-│ ├─ lab02_task.md
-│ ├─ lab03_task.md
-│ ├─ lab04_task.md
-│ ├─ lab05_task.md
-│ ├─ lab06_task.md
-│ ├─ lab07_task.md
-│ ├─ lab08_task.md
-│ ├─ lab09_task.md
-│ ├─ lab010_task.md
-│ └─ lab11_task.md
+├─ task/                              # Lab assignments in English and Russian
+│  ├─ lab01_task.md
+│  ├─ lab02_task.md
+│  ├─ lab03_task.md
+│  ├─ lab04_task.md
+│  ├─ lab05_task.md
+│  ├─ lab06_task.md
+│  ├─ lab07_task.md
+│  ├─ lab08_task.md
+│  ├─ lab09_task.md
+│  ├─ lab010_task.md
+│  └─ lab11_task.md
 │
-└─ README.md # Этот файл / This file
+└─ README.md
 ```
 
+---
+
+## Labs
+
+| #      | Title                                 | Description                                                                                                              |
+| ------ | ------------------------------------- | ------------------------------------------------------------------------------------------------------------------------ |
+| **1**  | **Data Preprocessing**                | Data preprocessing, feature analysis, and building a machine learning model to predict apartment prices.                 |
+| **2**  | **Customer Churn Classification**     | Building and evaluating a customer churn classifier using F1-score and ROC AUC.                                          |
+| **3**  | **Country Clustering**                | Clustering countries based on socio-economic indicators to identify countries that should be prioritized for assistance. |
+| **4**  | **Decision Trees & Ensemble Methods** | Training and evaluating Decision Trees, Bagging, Stacking, Random Forest, and XGBoost models.                            |
+| **5**  | **Time Series Analysis**              | Analyzing trends and seasonality, building forecasting models, and evaluating them using MAE and RMSE.                   |
+| **6**  | **Neural Networks**                   | Building a neural network for regression and performing hyperparameter tuning.                                           |
+| **7**  | **Neural Networks from Scratch**      | Implementing a neural network without using built-in neural network layers or optimizers.                                |
+| **8**  | **CNN Fine-Tuning**                   | Fine-tuning a pretrained convolutional neural network for image classification on the EuroSAT dataset.                   |
+| **9**  | **YOLO Object Detection**             | Implementing a YOLO-based object detection model with a pretrained backbone for brain tumor detection.                   |
+| **10** | **Transformers for Text**             | Implementing a Transformer architecture for text classification tasks.                                                   |
+| **11** | **ViT/Swin & Contrastive Learning**   | Applying ViT/Swin Transformer architectures to image tasks and implementing contrastive learning with a text model.      |
 
 ---
 
-## Лабораторные работы / Labs
+## How to Run
 
-| №  | Название / Title | Краткое описание / Short Description |
-|----|-----------------|--------------------------------------|
-| 1  | Предобработка данных / Data preprocessing | Обработка данных, анализ признаков, построение модели для предсказания цены квартиры. / Data preprocessing, feature analysis, ML model for predicting apartment price. |
-| 2  | Классификация ухода клиента / Customer churn classification | Разработка и оценка классификатора ухода клиента с использованием F1 и ROC AUC. / Build and evaluate a customer churn classifier using F1 and ROC AUC. |
-| 3  | Кластеризация стран / Country clustering | Кластеризация стран по социально-экономическим показателям, определение приоритетной помощи. / Cluster countries based on socio-economic indicators to identify priority assistance. |
-| 4  | Деревья решений и ансамбли / Decision trees & ensembles | Обучение деревьев решений, Bagging, Stacking, RandomForest, XGBoost. / Train decision trees, Bagging, Stacking, RandomForest, XGBoost. |
-| 5  | Временные ряды / Time series | Анализ сезонности и трендов, прогнозирование, метрики MAE/RMSE. / Seasonality and trend analysis, forecasting, metrics MAE/RMSE. |
-| 6  | Нейронные сети / Neural networks | Построение сети для регрессии, подбор гиперпараметров. / Build a neural network for regression, hyperparameter tuning. |
-| 7  | Нейронные сети с нуля / Neural networks from scratch | Реализация сети без готовых слоёв и оптимизаторов. / Implement network without built-in layers and optimizers. |
-| 8  | Fine-tuning CNN / Fine-tuning CNN | Fine-tuning предобученной сети для классификации изображений EuroSAT. / Fine-tune pretrained CNN for EuroSAT image classification. |
-| 9  | YOLO детекция / YOLO detection | Реализация YOLO с предобученным backbone для детекции опухолей мозга. / Implement YOLO with pretrained backbone for brain tumor detection. |
-| 10 | Transformer для текста / Transformer for text | Реализация Transformer для задач классификации текста. / Implement Transformer for text classification tasks. |
-| 11 | ViT/Swin и contrastive learning / ViT/Swin & contrastive learning | ViT/Swin для изображений, контрастное обучение с текстовой моделью. / ViT/Swin for images, contrastive learning with text model. |
+### Requirements
+
+* [Python 3.10+](https://www.python.org/)
+* [Jupyter Notebook](https://jupyter.org/)
+
+### Installation
+
+Clone the repository:
+
+```bash
+git clone <repository-url>
+cd ML
+```
+
+Install the required dependencies:
+
+```bash
+pip install -r requirements.txt
+```
+
+Launch Jupyter Notebook:
+
+```bash
+jupyter notebook
+```
+
+Open the required notebook from the `notebooks/` directory and run the cells.
 
 ---
 
-## Как запускать / How to run
+## Technologies
 
-1. Установите [Python 3.10+](https://www.python.org/) и [Jupyter Notebook](https://jupyter.org/).  
-2. Создайте виртуальное окружение и активируйте его:
+The labs cover a range of machine learning and deep learning techniques, including:
 
-```powershell
-python -m venv venv
-.\venv\Scripts\activate
+* Python
+* Jupyter Notebook
+* NumPy
+* Pandas
+* Scikit-learn
+* XGBoost
+* PyTorch
+* Computer Vision
+* Convolutional Neural Networks (CNNs)
+* YOLO
+* Transformers
+* Vision Transformers (ViT)
+* Swin Transformer
+* Contrastive Learning
+* Time Series Forecasting
+* Clustering
+* Classification
+* Regression
+
+---
+
+## Topics Covered
+
+The repository demonstrates practical experience with:
+
+* Data preprocessing and exploratory data analysis
+* Feature engineering and feature analysis
+* Regression and classification
+* Model evaluation and validation
+* Ensemble learning
+* Clustering
+* Time series forecasting
+* Neural networks
+* Neural networks implemented from scratch
+* Transfer learning and fine-tuning
+* Object detection
+* Transformer architectures
+* Computer vision
+* Contrastive learning
+
+---
+
+## Repository Status
+
+This repository was created for **educational purposes** as part of a machine learning course.
